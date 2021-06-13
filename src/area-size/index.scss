@@ -1,0 +1,20 @@
+body.area-has-width {
+  .editor-styles-wrapper:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: var(--area-width, 800px);
+    margin-left: calc(var(--area-width, 800px) / 2 * -1);
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    user-focus: none;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  .wp-block {
+    max-width: var(--area-width, 800px);
+  }
+}

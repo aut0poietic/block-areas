@@ -1,0 +1,21 @@
+{
+  "name": "ia-block-areas",
+  "version": "1.0.0",
+  "description": "Add arbitrary Gutenberg content to a theme. Requires theme support or a custom theme.",
+  "author": "Irresponsible Art",
+  "license": "GPL-2.0-or-later",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "packages-update": "wp-scripts packages-update"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^5.2.10",
+    "@wordpress/blocks": "^7.0.6",
+    "@wordpress/i18n": "^3.18.0"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^13.0.3"
+  }
+}
